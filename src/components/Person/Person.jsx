@@ -2,7 +2,11 @@ import React from 'react';
 
 const MarriedPartner = ({ sex, partnerName }) => (
   <p className="Person__partner">
-    {`${partnerName} is my ${sex === 'm' ? 'wife' : 'husband'}`}
+    {`${partnerName} is my ${
+      sex === 'm'
+        ? 'wife'
+        : 'husband'
+    }`}
   </p>
 );
 
